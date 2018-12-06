@@ -46,7 +46,7 @@ module.exports = {
         new webpack.optimize.OccurrenceOrderPlugin(),
         new webpack.NoErrorsPlugin(),
         new webpack.optimize.DedupePlugin(),
-        new ExtractTextPlugin('rulenode-core-config.css', {
+        new ExtractTextPlugin('custom-nodes-config.css', {
             allChunks: true,
         }),
         new webpack.DefinePlugin({

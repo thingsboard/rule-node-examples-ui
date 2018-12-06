@@ -50,7 +50,7 @@ module.exports = {
         new webpack.HotModuleReplacementPlugin(),
         new webpack.optimize.OccurrenceOrderPlugin(),
         new webpack.NoErrorsPlugin(),
-        new ExtractTextPlugin('rulenode-core-config.css', {
+        new ExtractTextPlugin('custom-nodes-config.css', {
             allChunks: true,
         }),
         new webpack.DefinePlugin({
