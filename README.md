@@ -1,4 +1,4 @@
-# custom-rule-node-examples-ui
+# rule-node-examples-ui
  
  Configuration UI for Custom Rule Nodes from rule-node-examples ThingsBoard repository
  
